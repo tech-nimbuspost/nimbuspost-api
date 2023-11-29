@@ -1,16 +1,16 @@
 # NimbusPost API (V1) PHP SDK
 ## Index
-1. [Installation](https://github.com/rishabh-nimbus/nimbuspost-api#installation)
-2. [Usage](https://github.com/rishabh-nimbus/nimbuspost-api#installation)
-    1. [Authentication](https://github.com/rishabh-nimbus/nimbuspost-api#Authentication)
-    2. [Couriers](https://github.com/rishabh-nimbus/nimbuspost-api#Couriers)
-    3. [NDR](https://github.com/rishabh-nimbus/nimbuspost-api#NDR)
-    4. [Tracking](https://github.com/rishabh-nimbus/nimbuspost-api#Tracking)
-    5. [Orders](https://github.com/rishabh-nimbus/nimbuspost-api#Orders)
-    6. [Shipments](https://github.com/rishabh-nimbus/nimbuspost-api#Shipments)
-    7. [Manifest](https://github.com/rishabh-nimbus/nimbuspost-api#Manifest)  
-    8. [Warehouse](https://github.com/rishabh-nimbus/nimbuspost-api#Warehouse)
-3. [Contributors](https://github.com/rishabh-nimbus/nimbuspost-api#contributors)
+1. [Installation](https://github.com/tech-nimbuspost/nimbuspost-api#installation)
+2. [Usage](https://github.com/tech-nimbuspost/nimbuspost-api#installation)
+    1. [Authentication](https://github.com/tech-nimbuspost/nimbuspost-api#Authentication)
+    2. [Couriers](https://github.com/tech-nimbuspost/nimbuspost-api#Couriers)
+    3. [NDR](https://github.com/tech-nimbuspost/nimbuspost-api#NDR)
+    4. [Tracking](https://github.com/tech-nimbuspost/nimbuspost-api#Tracking)
+    5. [Orders](https://github.com/tech-nimbuspost/nimbuspost-api#Orders)
+    6. [Shipments](https://github.com/tech-nimbuspost/nimbuspost-api#Shipments)
+    7. [Manifest](https://github.com/tech-nimbuspost/nimbuspost-api#Manifest)  
+    8. [Warehouse](https://github.com/tech-nimbuspost/nimbuspost-api#Warehouse)
+3. [Contributors](https://github.com/tech-nimbuspost/nimbuspost-api#contributors)
 
 ## Installation
 

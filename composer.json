@@ -1,8 +1,8 @@
 {
-    "name": "nimbuspackage/nimbuspost",
+    "name": "nimbuspost/nimbuspost",
     "description": "Nimbus Post apis package",
     "license":"MIT",
-    "homepage": "https://github.com/rishabh-nimbus/nimbuspost-api",
+    "homepage": "https://github.com/tech-nimbuspost/nimbuspost-api",
     "autoload": {
         "psr-4": {
             "Nimbuspackage\\Nimbuspost\\": "src/"
@@ -10,8 +10,8 @@
     },
     "authors": [
         {
-            "name": "kishan",
-            "email": "kishan.t@nimbuspost.com"
+            "name": "tech",
+            "email": "Care@nimbuspost.com"
         }
     ],
     "require": {
