@@ -17,7 +17,7 @@
 You can install the package via composer:
 
 ```bash
-composer require nimbuspackage/nimbuspost
+composer require nimbuspost/nimbuspost
 ```
 
 ## Authentication
