@@ -1,0 +1,23 @@
+{
+    "name": "nimbuspackage/nimbuspost",
+    "description": "Nimbus Post apis package",
+    "license":"MIT",
+    "homepage": "https://github.com/rishabh-nimbus/nimbuspost-api",
+    "autoload": {
+        "psr-4": {
+            "Nimbuspackage\\Nimbuspost\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kishan",
+            "email": "kishan.t@nimbuspost.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+    
+}
