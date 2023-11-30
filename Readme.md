@@ -212,3 +212,104 @@ $response=$object->shipByOrderId($payload);
 
 ```
 
+## Shipments
+
+### Get list of shipments
+ https://documenter.getpostman.com/view/9692837/SWE6beC7#375acfea-0222-459b-aa64-f74786a4d0f3
+
+  ```php
+
+$object=new NimbuspostApi($config);
+// refer above url for required parameters 
+$payload=[
+  'page'=>'1',
+];
+$response=$object->getShipments($payload);
+
+```
+
+### Get specific shipment
+https://documenter.getpostman.com/view/9692837/SWE6beC7#6d5f1b31-bfde-449e-a11e-9d387a6025be
+
+  ```php
+
+$object=new NimbuspostApi($config);
+// refer above url for required parameters 
+$shipmentId=12314;
+$response=$object->getShipment($shipmentId);
+
+```
+
+### Create Shipment
+https://documenter.getpostman.com/view/9692837/TW6wHnoz#3d1dd145-c6c3-4dc4-9e3a-31769e45e9ea
+
+```php
+
+$object=new NimbuspostApi($config);
+// refer above url for required parameters 
+$payload=[
+  'order_number'=>'1231',
+];
+$response=$object->createShipment($payload);
+
+```
+
+### Cancel Shipment
+https://documenter.getpostman.com/view/9692837/TW6wHnoz#074cda17-f8f6-491f-bb35-47274e20eee6
+
+```php
+
+$object=new NimbuspostApi($config);
+// refer above url for required parameters 
+$payload=[
+  'awb'=>'59632218892',
+];
+$response=$object->cancelShipment($payload);
+
+```
+
+## Manifest
+
+### Generate manifest through awb number
+https://documenter.getpostman.com/view/9692837/TW6wHnoz#31f3e7ea-66ce-4244-a40b-d15b191f4969
+
+```php
+
+$object=new NimbuspostApi($config);
+// refer above url for required parameters 
+$payload=[
+ "awbs": [
+        "4152911775885",
+        "NMBC0001789312"
+    ]
+];
+$response=$object->createManifest($payload);
+
+```
+
+
+## Warehouse
+
+### Get the list of warehouse
+https://documenter.getpostman.com/view/9692837/SWE6beC7#42d8f354-c80a-47d9-9e51-49ac513818c5
+
+```php
+
+$object=new NimbuspostApi($config);
+$response=$object->createWarehouse();
+
+```
+
+### Create warehouse
+https://documenter.getpostman.com/view/9692837/SWE6beC7#dc3ae3c6-6050-48e0-ae05-df7afcb281aa
+
+```php
+
+$object=new NimbuspostApi($config);
+// refer above url for required parameters 
+$payload=[
+ "name": "XXXXXXXXX"
+];
+$response=$object->createWarehouse($payload);
+
+```
