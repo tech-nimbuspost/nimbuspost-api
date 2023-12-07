@@ -296,7 +296,7 @@ https://documenter.getpostman.com/view/9692837/SWE6beC7#42d8f354-c80a-47d9-9e51-
 ```php
 
 $object=new NimbuspostApi($config);
-$response=$object->createWarehouse();
+$response=$object->getWarehouses();
 
 ```
 
